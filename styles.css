@@ -1,0 +1,107 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ff6767;
+    color: #000;
+    text-align: center;
+  }
+  
+  /* Header Section */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  /* Main Content */
+  .info {
+    padding: 20px;
+  }
+  
+  .holders {
+    background: yellow;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .contract {
+    margin: 20px 0;
+  }
+  
+  .contract input {
+    background: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    width: 60%;
+  }
+  
+  .copy-btn {
+    background: yellow;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .search {
+    margin: 20px 0;
+  }
+  
+  .search input {
+    width: 60%;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  .search-btn {
+    background: yellow;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Grid Section */
+  .puppy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .puppy-grid div {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .puppy-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .contract input, .search input {
+      width: 80%;
+    }
+  }
+  
+  
